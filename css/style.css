@@ -1,0 +1,127 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #f3f5f9;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  padding: 80px;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Question section */
+.questions-section {
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.questions-form {
+  background: #ffffff;
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+  padding: 40px;
+}
+.questions-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ac0505;
+  margin-bottom: 50px;
+}
+.questions-container {
+  display: flex;
+  flex-direction: column;
+}
+.questions-form-field-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.mind-select {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #4f4f4f;
+  padding-bottom: 8px;
+  margin-bottom: 30px;
+  opacity: 0;
+}
+.activity-questions-form-field-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333333;
+  margin-bottom: 15px;
+}
+.activity-questions-form-field-text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-bottom: 15px;
+}
+.activity-type-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.activity-type-item {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+}
+.activity-type-title {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+  margin-left: 20px;
+}
+.activity-type-checkbox {
+  width: auto;
+  height: auto;
+}
+.mind-questions-result {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4f4f4f;
+}
+.mind-questions-result-you {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ac0505;
+  margin-right: 10px;
+}
+.mind-conteiner {
+  margin-bottom: 30px;
+}
+.mind-calculate-button-container {
+  width: 100%;
+  text-align: center;
+}
+.mind-calculate-button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  background: #ac0505;
+  border-radius: 24px;
+  padding: 12px 32px 12px 32px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

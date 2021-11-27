@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3mind</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <!-- Question section -->
+        <section class="questions-section">
+            <form action="#" class="questions-form" method="POST" name="contact" data-netlify="true"
+                id="questions-form">
+                <h4 class="questions-title">3 mind</h4>
+                <div class="questions-container">
+                    <label for="mind-type" class="questions-form-field-title">Узнай свой тип мышления</label>
+                    <select name="mind-type" id="mind-type" class="mind-select">
+                        <option selected value="centrist">Центрист</option>
+                        <option value="reflector">Рефлектор</option>
+                        <option value="constructor">Конструктор</option>
+                    </select>
+                </div>
+
+                <!-- Question 1 -->
+                <div class="activity-type-container">
+                    <p class="activity-questions-form-field-title">Вопрос 1</p>
+                    <p class="activity-questions-form-field-text">Вспомните состояние, когда вы безумно горели каким-то делом. Что должно быть такого в задаче, чтобы она вам
+                    по-настоящему нравилась?</p>
+
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="constructor-answ1" id="constructor-answ1" class="activity-type-checkbox">
+                        <label for="constructor-answ1" class="activity-type-title">Здорово, если я могу самостоятельно погрузиться в что-то сложное, разобраться и разложить все по полочкам.</label>
+                    </div>
+                    <div checked class="activity-type-item">
+                        <input type="checkbox" name="centrist-answ1" id="centrist-answ1" class="activity-type-checkbox">
+                        <label for="centrist-answ1" class="activity-type-title">Важнее всего – обстановка в команде, единомышленники вокруг, а еще ощущение, что твое дело важно и нужно людям.</label>
+                    </div>
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="reflector-answ1" id="reflector-answ1" class="activity-type-checkbox">
+                        <label for="reflector-answ1" class="activity-type-title">Самое крутое – это творческий процесс, когда в итоге создается что-то невероятное, все в восторге и аплодируют стоя :)</label>
+                    </div>
+                </div>
+
+                <!-- Question 2 -->
+                <div class="activity-type-container">
+                    <p class="activity-questions-form-field-title">Вопрос 2</p>
+                    <p class="activity-questions-form-field-text">Когда вас просят что-то сделать (например, по работе), что вам нужно, чтобы приступить к делу?</p>
+                
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="constructor-answ2" id="constructor-answ2" class="activity-type-checkbox">
+                        <label for="constructor-answ2" class="activity-type-title">Мне нужна полная информация о задаче, детальное описание необходимого результата и точные сроки исполнения.</label>
+                    </div>
+                    <div checked class="activity-type-item">
+                        <input type="checkbox" name="centrist-answ2" id="centrist-answ2" class="activity-type-checkbox">
+                        <label for="centrist-answ2" class="activity-type-title">Мне нужно вникнуть по-человечески, разобраться, что кому в этом деле важно, и кто чего хочет.</label>
+                    </div>
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="reflector-answ2" id="reflector-answ2" class="activity-type-checkbox">
+                        <label for="reflector-answ2" class="activity-type-title">Самое главное – скажите мне, зачем мы это делаем (и зачем это лично мне).</label>
+                    </div>
+                </div>
+
+                <!-- Question 3 -->
+                <div class="activity-type-container">
+                    <p class="activity-questions-form-field-title">Вопрос 3</p>
+                    <p class="activity-questions-form-field-text">Если бы вы были невероятно богаты и ни в чем не нуждались, какой бы деятельностью занялись?</p>
+                
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="constructor-answ3" id="constructor-answ3" class="activity-type-checkbox">
+                        <label for="constructor-answ3" class="activity-type-title">Хотелось бы развивать науку и технологии, строить космические шаттлы, исследовать мир вокруг и совершать открытия.</label>
+                    </div>
+                    <div checked class="activity-type-item">
+                        <input type="checkbox" name="centrist-answ3" id="centrist-answ3" class="activity-type-checkbox">
+                        <label for="centrist-answ3" class="activity-type-title">В мире слишком много тех, кому нужна наша помощь. Я посвящу себя благотворительности и постараюсь помочь как можно
+                        большему количеству людей.</label>
+                    </div>
+                    <div class="activity-type-item">
+                        <input type="checkbox" name="reflector-answ3" id="reflector-answ3" class="activity-type-checkbox">
+                        <label for="reflector-answ3" class="activity-type-title">Ну, для начала я сделаю из себя супер-знаменитость и буду вести неприлично роскошный образ жизни, а потом уже посмотрим,
+                        чем займусь.</label>
+                    </div>
+                </div>
+                
+
+
+
+                <div class="mind-conteiner">
+                    <p class="questions-form-field-title">Результ:</p>
+                    <p class="mind-questions-result"> <span class="mind-questions-result-you">Вы</span> <span
+                            id="total-mind">Сейчас узнаем</span></p>
+                </div>
+                <div class="mind-calculate-button-container">
+                        <button class="mind-calculate-button">Узнать больше</button>
+                        <a href="https://www.google.com/"></a>
+                </div>
+            </form>
+        </section>
+    </div>
+
+
+    <script src="./js/script.js"></script>
+
+</body>
+</html>
